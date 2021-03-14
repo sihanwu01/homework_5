@@ -4,6 +4,7 @@ body {
     line-height: 1.7em;
     color: #53221D;
     overflow: auto;
+    margin-bottom: 10%;
 }
 
 #top_row {
@@ -125,19 +126,43 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/*adapted from http://jsfiddle.net/webtiki/MpXYr/2/ */
-.square {
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 70%;
-    margin: 1.66%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+/*adapted from https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 25vw);
+    grid-row-gap: 90px;
+    grid-column-gap: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
 }
 
-.img_1-1 {
-    background-image: url("./images/image1.png");;
+.gallery_item {
+    text-align: center;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    color:#53221D;
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.price {
+    color: #C46523;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.roll {
+    color:#53221D;
+    font-weight: 400;
+    font-size: 1.5vw; 
 }
   
