@@ -1,0 +1,143 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 100%;
+    line-height: 1.7em;
+    color: #53221D;
+    overflow: auto;
+}
+
+#top_row {
+    padding: .5em .5em 1em .5em;
+    height: 5vw;
+}
+
+#top_row header {
+    margin-bottom: 2em;
+    float: left;
+}
+
+#top_row a img{
+    float: left;
+    max-width: 7vw;
+    margin-top: 0;
+    vertical-align: middle;
+    position: relative;
+}
+
+#top_row h1 {
+    float: left;
+    color: #53221D;
+    font-size: 4vw;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 2vw;
+    margin-left: 10px;
+}
+
+#top_row nav {
+    display: inline;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-left: 10%;
+}
+
+#top_row nav a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 24px 33px;
+    color: #53221D;
+}
+
+.selected {
+    border-bottom: 3px solid #53221D;
+    padding-bottom: 1px;
+}
+
+.select:hover {
+    border-bottom: 3px solid #53221D;
+    padding-bottom: 1px;
+}
+
+#content {
+    position: relative;
+}
+
+.slideshow-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 450px;
+}
+
+.slideshow-container img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+#order {
+    top: 100px;
+    bottom: 0px;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: #53221D;
+    padding: 15px 108px;
+    text-align: center;
+    text-decoration: none;
+    display: table;
+    font-size: 26px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+#banner {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 150px;
+    background-color: #9F4100;
+}
+
+#banner img {
+    margin: -450px 0 0 -202px;
+    filter: opacity(40%);
+}
+
+.center {
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*adapted from http://jsfiddle.net/webtiki/MpXYr/2/ */
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 70%;
+    margin: 1.66%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.img_1-1 {
+    background-image: url("./images/image1.png");;
+}
+  

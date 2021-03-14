@@ -4,7 +4,7 @@
     <!--Link to CSS file-->
     <link rel="stylesheet" media="all" type="text/css" href="styles.css"/>
 
-    <title>Bun Bun Bake Shop</title>
+    <title>Products</title>
 </head>
 
 <body>
@@ -20,8 +20,8 @@
 
             <!--Navigation Bar-->
             <nav>
-                <a href="index.html" class="selected">Home</a>
-                <a href="products.html" class = "select">Products</a>
+                <a href="index.html" class="select">Home</a>
+                <a href="products.html" class = "selected">Products</a>
                 <a class = "select">About</a>
                 <a class = "select">Contact</a>
                 <a class = "select">Cart</a>
@@ -29,11 +29,17 @@
         </div>
 
         <div id="content">
-            <div class="slideshow-container">
-                    <img src="images/banner.jpg" alt="Cinnamon Buns">
+            <div id="banner">
+                <img src="images/banner.jpg" alt="Flavors">
+                <div class="center">Flavors</div>
             </div>
-            <div id="order">
-                <a href="products.html" class="button">Order Now</a>
+            <!--adapted from https://css-tricks.com/a-grid-of-logos-in-squares/-->
+            <div class="grid">
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
             </div>
         </div>
     </div>
